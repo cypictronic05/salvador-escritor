@@ -16,3 +16,6 @@ const mp = new MercadoPago('TU_PUBLIC_KEY', {
       });
   });
   
+  document.getElementById('floatingBtn').addEventListener('click', function() {
+    window.open('https://api.whatsapp.com/send?phone=56948898247&text=%C2%A1Hola,%20amigo!%20Estuve%20por%20su%20sitio%20web%20,%20me%20interesa%20sus%20libro.', '_blank');
+}); 
