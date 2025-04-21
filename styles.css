@@ -75,7 +75,6 @@ body {
   .video-container {
     position: relative;
     max-width: 500px;
-    border: 10px solid #0e0bbf;
     aspect-ratio: 9/16;
     overflow: hidden;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -97,8 +96,8 @@ body {
   
   
   footer {
-    background-color: #222;
-    color: #aaa;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #FFFFFF;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
