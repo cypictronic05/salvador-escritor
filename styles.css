@@ -137,3 +137,37 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Disminuye la sombra al presionar */
 }
 
+.boton-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.buyButton {
+  background-color: #ffdd57;
+  color: #000;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  min-width: 200px;
+}
+
+.buyButton:hover {
+  background-color: #fbc02d;
+}
+
+@media (max-width: 600px) {
+  .boton-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buyButton {
+    width: 80%;
+  }
+}
