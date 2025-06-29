@@ -161,21 +161,6 @@ body {
   background-color: #fbc02d;
 }
 
-.autor-imagen {
-  position: absolute; /* o relative si estás dentro de un contenedor con position relative */
-  top: 0px; /* ajusta la posición */
-  left: 20px;
-  z-index: 9999; /* valor alto para que esté por encima */
-
-}
-
-.autor-imagen img {
-  width: 500px;
-  display: none;
-  /* border-radius: 10px; */
-  /* box-shadow: 0 0 15px rgba(0,0,0,0.5); */
-}
-
 #anuncio{
   font-size: 25px;
   font-weight: bold;
@@ -191,9 +176,6 @@ display: none;
     align-items: center;
   }
 
-  .autor-imagen{
-    display: none;
-  }
 
   #anuncio{
     display: none;
